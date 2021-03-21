@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "lint",
+    "prebuild": "eslint -c .eslintrc.json ./src/**/*.tsx",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
